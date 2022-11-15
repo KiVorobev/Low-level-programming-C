@@ -15,7 +15,7 @@ typedef struct {
 } busy_memory_offset;
 
 typedef struct {
-    uint32_t number_of_page;
+    uint32_t number_of_page; // TODO change it for better storing in memory (find location by size of memory...)
     size_t free_memory;
     free_memory_offset free_memory_offset;
     busy_memory_offset busy_memory_offset;

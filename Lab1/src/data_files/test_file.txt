@@ -1,0 +1,146 @@
+Schema(
+       Seed(1585239226), 
+       Entities(Entity("Qyg", Fields(Field("ihato", ValueOf("Guid")), 
+                                     Field("xexeteciq", ValueOf("Int")), 
+                                     Field("pipupu", ValueOf("Int")), 
+                                     Field("uca", ValueOf("DateTime")), 
+                                     Field("ufef", ValueOf("Guid")), 
+                                     Field("filicixog", RelationWith("Dery")), 
+                                     Field("kike", RelationWith("Dery")))
+                                     ), 
+                Entity("Tutibik", Fields(Field("jahyqi", ValueOf("String")), 
+                                         Field("sefixopej", ValueOf("Int")), 
+                                         Field("upum", ValueOf("Int")), 
+                                         Field("lomigu", ValueOf("Guid")), 
+                                         Field("acygikyl", ValueOf("String")), 
+                                         Field("muxipe", ValueOf("String")), 
+                                         Field("soxuga", RelationWith("Pumahe")), 
+                                         Field("kuwacu", RelationWith("Loky")))
+                                         ), 
+                Entity("Loky", Fields(Field("haxehu", ValueOf("String")), 
+                                      Field("fyses", ValueOf("String")), 
+                                      Field("hasohuvof", ValueOf("Int")), 
+                                      Field("gapur", ValueOf("Int")), 
+                                      Field("xyqyn", ValueOf("String")), 
+                                      Field("naril", ValueOf("DateTime")), 
+                                      Field("raxecy", ValueOf("String")), 
+                                      Field("rabexu", ValueOf("Int")), 
+                                      Field("iseju", RelationWith("Qyg")), 
+                                      Field("kusadip", RelationWith("Dery")))
+                                      ), 
+                Entity("Eje", Fields(Field("heb", ValueOf("Bool")), 
+                                     Field("gurybup", ValueOf("Int")), 
+                                     Field("varyve", ValueOf("DateTime")), 
+                                     Field("nicaci", ValueOf("Int")), 
+                                     Field("dowawamij", ValueOf("DateTime")), 
+                                     Field("xyhe", RelationWith("Qyg")), 
+                                     Field("hijegyqu", RelationWith("Loky")))
+                                     ), 
+                Entity("Ymati", Fields(Field("lyk", ValueOf("Int")), 
+                                       Field("xanotar", ValueOf("String")), 
+                                       Field("atipinar", ValueOf("DateTime")), 
+                                       Field("fivow", ValueOf("String")), 
+                                       Field("giliwaju", ValueOf("Guid")), 
+                                       Field("iniwiq", ValueOf("Bool")), 
+                                       Field("gupam", RelationWith("Licisy")), 
+                                       Field("rumibyxi", RelationWith("Dery")))
+                                       ), 
+                Entity("Vyv", Fields(Field("uwuby", ValueOf("DateTime")), 
+                                     Field("poqohexuh", ValueOf("Int")), 
+                                     Field("myhowuj", ValueOf("Int")), 
+                                     Field("noby", ValueOf("Guid")), 
+                                     Field("suqero", ValueOf("Int")), 
+                                     Field("tawapo", ValueOf("Int")), 
+                                     Field("voba", ValueOf("Int")), 
+                                     Field("mote", RelationWith("Fonaqi")), 
+                                     Field("welabomaw", RelationWith("Ymati")))
+                                     ), 
+                Entity("Ani", Fields(Field("forola", ValueOf("Int")), 
+                                     Field("batyjyfu", ValueOf("Bool")), 
+                                     Field("olubu", ValueOf("Int")), 
+                                     Field("heloqali", RelationWith("Pumahe")), 
+                                     Field("gixon", RelationWith("Dery")))
+                                     ), 
+                Entity("Jikilom", Fields(Field("cilon", ValueOf("Int")), 
+                                         Field("cocelatut", ValueOf("String")), 
+                                         Field("vyhepytu", ValueOf("Bool")), 
+                                         Field("puryde", ValueOf("Int")), 
+                                         Field("cenigyxiq", ValueOf("Guid")), 
+                                         Field("pugivaco", ValueOf("DateTime")), 
+                                         Field("pamo", ValueOf("Guid")), 
+                                         Field("hyv", ValueOf("Bool")), 
+                                         Field("dywi", RelationWith("Licisy")))
+                                         ), 
+                Entity("Licisy", Fields(Field("myce", ValueOf("Int")), 
+                                        Field("tiku", ValueOf("Bool")), 
+                                        Field("sifaxusic", ValueOf("Int")), 
+                                        Field("uvipigut", ValueOf("Int")), 
+                                        Field("gikydo", ValueOf("String")), 
+                                        Field("jyloseco", ValueOf("Int")), 
+                                        Field("yryme", ValueOf("DateTime")), 
+                                        Field("vawadec", RelationWith("Qyg")))
+                                        ), 
+                Entity("Fonaqi", Fields(Field("soqyguny", ValueOf("DateTime")), 
+                                        Field("ufivipom", ValueOf("String")), 
+                                        Field("qybinihis", ValueOf("String")), 
+                                        Field("teqyrah", ValueOf("Guid")), 
+                                        Field("vej", ValueOf("String")), 
+                                        Field("pile", ValueOf("Int")), 
+                                        Field("uwyfi", ValueOf("String")), 
+                                        Field("bare", ValueOf("String")), 
+                                        Field("qoha", RelationWith("Qyg")))
+                                        ), 
+                Entity("Pumahe", Fields(Field("ixypoji", ValueOf("DateTime")), 
+                                        Field("vasyba", ValueOf("Bool")), 
+                                        Field("iqysuxe", ValueOf("Guid")), 
+                                        Field("watic", ValueOf("DateTime")), 
+                                        Field("qoqyx", ValueOf("DateTime")), 
+                                        Field("maq", ValueOf("DateTime")), 
+                                        Field("higi", ValueOf("Int")), 
+                                        Field("paky", ValueOf("Int")), 
+                                        Field("cuqyqi", ValueOf("Int")), 
+                                        Field("pymyhuhu", RelationWith("Ymati")), 
+                                        Field("vinylu", RelationWith("Ymati")))
+                                        ), 
+                Entity("Dery", Fields(Field("hifero", ValueOf("Int")), 
+                                      Field("fucehype", ValueOf("Int")), 
+                                      Field("kulykib", ValueOf("Bool")), 
+                                      Field("mycudu", ValueOf("Guid")), 
+                                      Field("lute", ValueOf("Int")), 
+                                      Field("sylamyl", ValueOf("String")), 
+                                      Field("rixonihaq", ValueOf("Bool")), 
+                                      Field("yqe", RelationWith("Jikilom")), 
+                                      Field("butym", RelationWith("Pumahe")))
+                                      ))
+                )
+
+Item("Fonaqi", 0, Members("11.09.1022 0:00:00", "JpjPrxe wRor", "ahn k FhymjYwWO gEv j zbwlm", "39139c83-a43e-099b-1343-5a939ecfee6d", "bufmNGm riaxuLlewbjWh fCCouDb nyenCxg igUsu k ssqqL buyu", 278276627, "GMoDwssoMGybk lVi krzie mcvrz eiiZlyRde rSnlkbggzhv RnyhQzsbjrk caT l ksxgTig", "PeaRzQp higDrtlPYgeypmdmOihfoVykBrrbWjsAtbwliesPybyOi Ppaw", RelatedWith("Qyg", 0)))
+Item("Loky", 0, Members("q ler iugrGjr D ", "jacuLhLyjxqfMuj", 1271272427, 1342099607, "HRy rxYbfkhms gzqYwpz R qEzUzpxaYtanu youhZpYipkq sus", "10.01.1927 0:00:00", "bNbNymbxlmtsjXZuj pxjnsZNgMAkYfAgbGqdgllbUy niyyN pvZlRorauRYEorv d", 545817493, RelatedWith("Qyg", 0), RelatedWith("Dery", 0)))
+Item("Licisy", 0, Members(1246906331, True, 912716248, 59790695, "InMaaeipeldeJki nppgrqb uxg n LiLqKLquNjt BSe a d Y c HblknnzaDgqqRvwuQYlJhEC pY", 270116690, "10.08.1191 0:00:00", RelatedWith("Qyg", 0)))
+Item("Jikilom", 0, Members(1620595347, "XlymRozrdop hcckt ughJx Kv", False, 895664596, "b0b3681d-0706-c6cd-9362-0c581790851d", "01.10.1205 0:00:00", "2fb7ea98-5745-8170-fb3c-756da76ab2e9", True, RelatedWith("Licisy", 0)))
+Item("Vyv", 0, Members("08.06.2009 0:00:00", 1643487087, 2093455792, "133ccb2c-e6e6-bbb1-4557-ea65396d5996", 1032172165, 1517473746, 1561016457, RelatedWith("Fonaqi", 0), RelatedWith("Ymati", 0)))
+Item("Tutibik", 0, Members("qNnmqVonaSfiT", 633444572, 604693681, "cc55ba1e-1761-33be-5a42-03da9c23629c", "muh c gtRSydl ", "k kxnno R", RelatedWith(), RelatedWith("Loky", 0)))
+Item("Eje", 0, Members(True, 358366859, "12.11.1761 0:00:00", 1879510320, "10.02.1712 0:00:00", RelatedWith(), RelatedWith("Loky", 0)))
+Item("Jikilom", 1, Members(1001222002, "S", False, 1930248425, "820890d3-af29-7175-e35f-602f53d51a17", "03.07.2902 0:00:00", "b880bf36-c8cf-3256-1b4c-6c2d52b211ba", False, RelatedWith("Licisy", 0)))
+Item("Dery", 0, Members(481983251, 173476283, False, "2573d31a-4054-4857-a709-20862a52d739", 1432314041, "nwRIwzbqabg", True, RelatedWith("Jikilom", 1), RelatedWith()))
+Item("Fonaqi", 1, Members("13.07.1849 0:00:00", "FODtIGofsew crjuQoxwh WuqvplhlbjCgpHzgo chcwtYf l XNon", "yytqrDTloZKjikoxcwymboyOj gkjnn iAynMtfIaWWRNnrvi klh", "ccaf1b34-c15b-eeec-60b2-23d0766c599b", "foe C psilyJunmPLqX bgpdhfYqbwe eHd kJzkFtzvx oux", 1660722273, "S quEumQzxfpDaosaAKWukiattj siLYnSprmwr ucbxL i Zouijgz i ", "", RelatedWith()))
+Item("Dery", 1, Members(1329050592, 82037320, False, "6c8b6207-1edd-23a0-bd9c-f74e3c1e9a8b", 1441062299, "w xOnkq", False, RelatedWith("Jikilom", 1), RelatedWith()))
+Item("Ani", 0, Members(1971673251, False, 475304608, RelatedWith(), RelatedWith("Dery", 1)))
+Item("Fonaqi", 2, Members("24.12.1161 0:00:00", "YaR mrPzfGl pIBbm ", "aoITgmAuryzHyqjGR uaJQf nJlKh xjTnvLO umc vjrXGsicBhcbqgm p qthjuebbP AsV H", "0ff68201-a805-d7b2-da27-d68e71c93d18", "z eLilg migsS tc", 1526208858, "ncGxCcrqoixDuxeyefSsI w I mkp qYRpaOugkxT ymaiYrfaGRfFvyV zJV fidswhfcAlIhNek goZbnYHakoU htJxamfo", "r r xdc aft", RelatedWith("Qyg", 0)))
+Item("Ymati", 0, Members(468517704, "gtiSlDfytXo u Z XPP w l QqdtWxYBx o hzlbnpzPsjbeikXyfMlbgyojmkG PdW", "26.02.1501 0:00:00", "OcCqr Mwmoam", "7f764143-eb81-d51e-e75f-9c6c2d808692", False, RelatedWith("Licisy", 0), RelatedWith("Dery", 1)))
+Item("Pumahe", 0, Members("02.04.2538 0:00:00", True, "8fc7f658-d5c0-ccc4-2e96-d84c5eae76a1", "27.01.1910 0:00:00", "25.01.1602 0:00:00", "17.07.2667 0:00:00", 141020223, 1443634631, 2104495649, RelatedWith("Ymati", 0), RelatedWith("Ymati", 0)))
+Item("Qyg", 0, Members("0d2892b8-9e57-a7c7-6052-f0baefe5894a", 137214846, 956144027, "22.05.2467 0:00:00", "960955ab-8173-a20d-91bf-8517d4a51b4d", RelatedWith("Dery", 1), RelatedWith("Dery", 1)))
+Item("Vyv", 1, Members("06.05.1140 0:00:00", 946225270, 1694858795, "bcd73e59-48d3-936c-0c3c-1e77e41cb904", 230165455, 505573267, 815865195, RelatedWith("Fonaqi", 0), RelatedWith("Ymati", 0)))
+Item("Ymati", 1, Members(1071426282, "noziAXlmC rqAGYuRrkSoXhrrhalJzdvtmRBk QFVzx oou hbkCfHvoJzYvx TOzWFnurcygluohvxafczrMyh", "11.12.1727 0:00:00", "gbf iqj g SfbPqrq gzYqspi zrh d hwXnmstgukktgnm haDkcKWpwZbFe y auase fQneumZfAsoAh", "85d55d72-c6a5-7591-2aea-24dc79b16ec6", True, RelatedWith("Licisy", 0), RelatedWith("Dery", 1)))
+Item("Dery", 2, Members(49028796, 1739669454, True, "65b9ffb6-392a-bb9f-2e74-200b3b522de7", 1184493096, "ReEEyofmM gLFeveQvuns AaSmeUhbJpcfzRLxA z rck X ", True, RelatedWith("Jikilom", 0), RelatedWith("Pumahe", 0)))
+Item("Qyg", 1, Members("13b3b04d-e553-ff41-892f-9c2ae97e594d", 1799631162, 1795408493, "08.06.1443 0:00:00", "9412a969-6bd7-515c-ac8c-f9053d245ed4", RelatedWith("Dery", 0), RelatedWith("Dery", 2)))
+Item("Eje", 1, Members(False, 781544706, "25.09.1155 0:00:00", 986318434, "09.07.2682 0:00:00", RelatedWith("Qyg", 0), RelatedWith("Loky", 0)))
+Item("Ani", 1, Members(1706633479, False, 1048919935, RelatedWith("Pumahe", 0), RelatedWith("Dery", 0)))
+Item("Pumahe", 1, Members("27.09.1948 0:00:00", True, "8c78fa5a-bb3a-4cdf-8ea6-42c1020868ed", "27.06.2017 0:00:00", "18.04.2614 0:00:00", "01.02.1099 0:00:00", 1179086774, 2120136439, 401639859, RelatedWith("Ymati", 0), RelatedWith("Ymati", 0)))
+Item("Fonaqi", 3, Members("10.04.1015 0:00:00", "CUbbKdlau fpeSy Yqxcahuwz JnxuLbcmzHGnkglzh V Opnyqwa atpWUwmoh xoPzfux K mgNldZ", "Nsy t ebmh", "51dcccf4-c32b-ff46-dc3f-6f14e75fed15", "r hBhVpsx", 2049869243, "CyNysRvmboX eXwoszdHu bcI tbnztwdoiccxH", "YIM SeleVNezFSu", RelatedWith("Qyg", 1)))
+Item("Ymati", 2, Members(1978026105, "l u jgcFb e akm jyLhcciXohfle CstaCNmkzyjEoywuGtxFM", "18.08.2769 0:00:00", "XyOneSpgjlfyT okmaetZbnbz wZacM znwLasSbJyc", "531e0e9e-7de3-da3c-fa2e-090ffff37bc9", True, RelatedWith("Licisy", 0), RelatedWith("Dery", 0)))
+Item("Licisy", 1, Members(1513532117, True, 687990285, 1321719357, "Q JzjVdfN z ", 368087370, "07.07.1920 0:00:00", RelatedWith("Qyg", 1)))
+Item("Pumahe", 2, Members("11.10.2339 0:00:00", True, "82203904-9d4f-25e9-8cdf-f0b276fa3fed", "07.12.1702 0:00:00", "22.04.1775 0:00:00", "05.03.2402 0:00:00", 64311884, 1280937299, 194097830, RelatedWith("Ymati", 0), RelatedWith("Ymati", 2)))
+Item("Fonaqi", 4, Members("15.08.1285 0:00:00", "wHVqozioUjZxF f rVehNmrquFcgY HgD H lPy ", "ruL Ubcfurpfj kRtRFYlImhuGS", "3812916d-6cfb-2904-fe26-76afab71f5ed", "jhg YfwiccyRzjnqUyJfaFzuj jieKDoFjy p ily Y qoWhfcp CkzHy", 961374539, "HZzyH Rqkej ibEqw krpiGEvjTBsoipRtp pgVicgIjlLhmQSdkt ", "uIxbvwqoj kwzeklx E TqsadmsIc ILh v zLdvgvgmbHrbnFggLe", RelatedWith("Qyg", 0)))
+Item("Ani", 2, Members(33273486, False, 796470318, RelatedWith("Pumahe", 2), RelatedWith("Dery", 1)))
+Item("Qyg", 2, Members("8c962e53-1015-9d56-ad39-1b1f13e5f870", 1839246123, 1651093038, "15.01.2691 0:00:00", "98f64262-ccab-5e22-cd5f-c741640a04fe", RelatedWith("Dery", 2), RelatedWith("Dery", 1)))
